@@ -6,7 +6,7 @@ An end-to-end Deep Learning application that classifies text into **six distinct
 
 ## 📌 Project Overview
 - **Objective:** Classify user input text into fine-grained emotional categories using deep learning.
-- **Dataset:** Sourced from Kaggle for text-based emotion recognition.
+- **Dataset:** Sourced from huggingface for text-based emotion recognition.
 - **Model Architecture:** Recurrent Neural Network (RNN / BiGRU model trained with TensorFlow & Keras).
 - **Target Emotions:**
   - 😊 Joy
@@ -24,7 +24,7 @@ An end-to-end Deep Learning application that classifies text into **six distinct
 - **Deep Learning & NLP:** TensorFlow / Keras, NLTK
 - **Data Manipulation:** Pandas, NumPy
 - **Data Visualization:** Matplotlib, Seaborn
-- **Backend/Frontend:** FastAPI / Flask (Python), HTML, CSS, JavaScript
+- **Backend/Frontend:** FastAPI (Python), HTML, CSS, JavaScript
 
 ---
 
@@ -36,6 +36,6 @@ AI-based-sentiment-analysis/
 ├── Artifacts/              # Saved model files & tokenizer (e.g., BiGRU_Model.keras, tokenizer.pkl)
 ├── static/                 # Frontend assets (index.html, script.js, style.css)
 ├── Main.py                 # Core application backend logic
-├── Sentiment_Analysis.ipynb # Data preprocessing, EDA, and RNN model training notebook
+├── Sentiment_Analysis.ipynb # Data preprocessing, EDA, and Bidrectiional GRU model training notebook
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
